@@ -5,5 +5,3 @@ from . import employee_related
 from . import regulatory_models
 from . import affiliation_type
 from . import affiliation
-
-
