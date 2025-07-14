@@ -12,7 +12,7 @@ class SoftyPayDailyAllowance(models.Model):
         'hr.employee', "Salarié", required=True, ondelete='cascade')
     rule_code = fields.Char(
         "Code Rubrique", required=True,
-        help="Référence dje la rubrique salariale.")
+        help="Référence de la rubrique salariale.")
     description = fields.Char("Libellé Rubrique")
     rate = fields.Float("Taux", digits='Payroll', default=0.0)
     ceiling = fields.Float("Plafond (facultatif)", digits='Payroll')
